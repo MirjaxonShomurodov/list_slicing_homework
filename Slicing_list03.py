@@ -6,4 +6,7 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    list1=["a","d","f","b","k","l"]
+    list=list1+list1[5::-1]
+    return list
+print(main(list))
